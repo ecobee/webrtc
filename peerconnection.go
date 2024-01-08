@@ -258,6 +258,10 @@ func (pc *PeerConnection) initConfiguration(configuration Configuration) error {
 	return nil
 }
 
+func (pc *PeerConnection) SetICEGatherer(gatherer *ICEGatherer) {
+	pc.iceGatherer = gatherer
+}
+
 // OnSignalingStateChange sets an event handler which is invoked when the
 // peer connection's signaling state changes
 func (pc *PeerConnection) OnSignalingStateChange(f func(SignalingState)) {
