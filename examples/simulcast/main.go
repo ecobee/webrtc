@@ -14,10 +14,10 @@ import (
 	"os"
 	"time"
 
+	"github.com/ecobee/webrtc/v3"
+	"github.com/ecobee/webrtc/v3/examples/internal/signal"
 	"github.com/pion/interceptor"
 	"github.com/pion/rtcp"
-	"github.com/pion/webrtc/v3"
-	"github.com/pion/webrtc/v3/examples/internal/signal"
 )
 
 // nolint:gocognit

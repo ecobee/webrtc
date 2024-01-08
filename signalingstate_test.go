@@ -6,7 +6,7 @@ package webrtc
 import (
 	"testing"
 
-	"github.com/pion/webrtc/v3/pkg/rtcerr"
+	"github.com/ecobee/webrtc/v3/pkg/rtcerr"
 	"github.com/stretchr/testify/assert"
 )
 

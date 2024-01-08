@@ -18,13 +18,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/ecobee/webrtc/v3/pkg/media"
 	"github.com/pion/logging"
 	"github.com/pion/randutil"
 	"github.com/pion/rtcp"
 	"github.com/pion/rtp"
 	"github.com/pion/sdp/v3"
 	"github.com/pion/transport/v2/test"
-	"github.com/pion/webrtc/v3/pkg/media"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -10,8 +10,8 @@ package webrtc
 import (
 	"syscall/js"
 
+	"github.com/ecobee/webrtc/v3/pkg/rtcerr"
 	"github.com/pion/ice/v2"
-	"github.com/pion/webrtc/v3/pkg/rtcerr"
 )
 
 // PeerConnection represents a WebRTC connection that establishes a

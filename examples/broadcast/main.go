@@ -12,10 +12,10 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/ecobee/webrtc/v3"
+	"github.com/ecobee/webrtc/v3/examples/internal/signal"
 	"github.com/pion/interceptor"
 	"github.com/pion/interceptor/pkg/intervalpli"
-	"github.com/pion/webrtc/v3"
-	"github.com/pion/webrtc/v3/examples/internal/signal"
 )
 
 func main() { // nolint:gocognit

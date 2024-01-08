@@ -15,9 +15,9 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/ecobee/webrtc/v3"
 	"github.com/pion/logging"
 	"github.com/pion/transport/v2/vnet"
-	"github.com/pion/webrtc/v3"
 )
 
 /* VNet Configuration
